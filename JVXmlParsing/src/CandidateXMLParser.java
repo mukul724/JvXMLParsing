@@ -17,7 +17,7 @@ public class CandidateXMLParser {
 
 	static int count = 0;
 	static DocumentBuilder db = null;
-
+    int val=10;//test stage
 	public static String getCharacterDataFromElement(Element e) {
 		Node child = e.getFirstChild();
 		if (child instanceof CharacterData) {
